@@ -69,9 +69,8 @@ class FileContentObject extends AbstractContentObject
     /**
      * @return TypoScriptFrontendController
      */
-    protected function getTypoScriptFrontendController(): TypoScriptFrontendController
+    protected function getTypoScriptFrontendController(): ?TypoScriptFrontendController
     {
         return $GLOBALS['TSFE'];
     }
 }
-
