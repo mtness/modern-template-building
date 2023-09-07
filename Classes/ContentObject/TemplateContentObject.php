@@ -124,7 +124,7 @@ class TemplateContentObject extends AbstractContentObject
                     }
                 }
                 // Getting marks
-                if (is_array($conf['marks.'])) {
+                if (isset($conf['marks.'])) {
                     foreach ($conf['marks.'] as $theKey => $theValue) {
                         if (!str_contains($theKey, '.')) {
                             $marks[$theKey]['name'] = $theValue;
