@@ -321,5 +321,8 @@ This extension was created by [Benni Mack](https://github.com/bmack) in 2020.
 The original credits go to the TYPO3 development team and contributors 
 that have maintained this code for over 20 years until it was removed from Core.
 
+
+
 Additional thanks to Franz Holzinger for creating T3v11 compatibility.
 
+And more.
